@@ -9,7 +9,6 @@ Weight[] = {10,20,30}
 Output : 
 Max Value : 240
  */
-
  #include<iostream>
  #include<algorithm>
  using namespace std;
@@ -40,7 +39,7 @@ Max Value : 240
     for (int i = 0; i < N; i++) idx[i] = i;
 
     // Sort the idx array based on pByw values in descending order
-    sort(idx, idx + N, [&](int a, int b) {
+    sort(idx, idx + N, [&](int a, int b){
         return pByw[a] > pByw[b];
     });
     
