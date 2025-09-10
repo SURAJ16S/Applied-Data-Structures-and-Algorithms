@@ -1,4 +1,4 @@
-/*
+/* Not Running
 Gas Station Circuit Problem
 Statement : Gas and Cost Arrays. find starting point to complete the circuit.
 
@@ -19,11 +19,15 @@ for(int i =0;i<N;i++){
     cin>>Gas[i];
     cout<<"Enter Cost at Station : "<<i+1<<" : ";
     cin>>Cost[i];
-
-    if(Cost[i]= N){
-        cout<<"Start index :"<<Gas[i]<<endl;
-    }
 }
-
+for(int i =0;i<N;i++){
+ if(Cost[i]= N){
+        cout<<"Start index :"<<Gas[i]<<endl;
+    break;}
+    else{
+        cout<<"No Such Index Found"<<endl;
+        break;
+}
+}
     return 0;
 }

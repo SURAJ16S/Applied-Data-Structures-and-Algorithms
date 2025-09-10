@@ -1,4 +1,4 @@
-/*
+/* DONE
 Fractional Knapsack Problem
 Statement : maximizee value with weight capasity ; can take fraction.
 input :

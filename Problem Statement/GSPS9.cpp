@@ -1,4 +1,4 @@
-/*
+/* Logical Error
 Candy Distribution
 Distribute Candies such that each kid with a higher score gets more than neighbours
 Input : rating[1,0,2]

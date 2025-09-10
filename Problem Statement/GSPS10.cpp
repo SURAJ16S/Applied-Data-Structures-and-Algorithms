@@ -1,4 +1,4 @@
-/*
+/* DONE
 Maximize Number of Tasks Done
 Statement : Do Max Tasks with Durations a[] in total time T.
 Input : a[]={4,3,1,2} T=5
@@ -25,7 +25,7 @@ sort(Task,Task+N);      //now the array is sorted in ascending order
 //traverse the array and reduce the time T to count total Task that can be done in the time T
 for(int i=0;i<N;i++){
     if(Task[i]<=T){
-        T=T- Task[i];
+        T-=Task[i];
         count++;
     }
     else{
