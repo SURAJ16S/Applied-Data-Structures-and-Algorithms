@@ -1,6 +1,6 @@
 /* DONE
 Fractional Knapsack Problem
-Statement : maximizee value with weight capasity ; can take fraction.
+Statement : maximize value with weight capacity ; can take fraction.
 input :
 N=3
 W=50;

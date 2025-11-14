@@ -13,10 +13,7 @@ using namespace std;
 // Function to count trailing zeroes in n!
 int countTrailingZeroes(int n) {
    int count = 0;
-
    //how the for loop is working in depth
-   
-   
    for (int i = 5; n / i >= 1; i *= 5) {
       count += n / i;
    }

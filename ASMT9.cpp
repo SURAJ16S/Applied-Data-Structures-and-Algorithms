@@ -1,7 +1,7 @@
 /*
 implement a program to find all distinct subsets of a gicen set using bit masking approach.
 
-Statement : Given an array of ineters arr[], the task is to find all its subsets . the subset cannot contain duplicate elemments , so any repeated subset should be considered only once in the output.
+Statement : Given an array of integers arr[], the task is to find all its subsets . the subset cannot contain duplicate elemments , so any repeated subset should be considered only once in the output.
 input : S={1,2,2}
 output : {},{1},{2},{1,2},{2,2},{1,2,2}
 input : S={1,2}

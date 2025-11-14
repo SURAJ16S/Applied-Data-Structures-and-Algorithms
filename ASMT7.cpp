@@ -19,7 +19,6 @@ int count(int coins[], int n, int sum){
     return count(coins, n, sum - coins[n - 1]) + count(coins, n - 1, sum);
 }
 int main(){
-    int i, j;
     int coins[] = {2,5,3,6};
     int n = sizeof(coins) / sizeof(coins[0]);
     int sum ;

@@ -11,12 +11,11 @@ Output : arr[] = {1, 2, 4, 3, 5, 0, 0, 0};
 */
 
 //using divide and conquer approach
-#include<iostream>
-using namespace std;
 
-int main(){
-int arr[] = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};
-int n = sizeof(arr)/sizeof(arr[0]);                //11 position means 44 and size of 1 int is 4 so 44/4=11
+
+// int main(){
+// int arr[] = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};
+// int n = sizeof(arr)/sizeof(arr[0]);                //11 position means 44 and size of 1 int is 4 so 44/4=11
 //using additional array and swapping non zero elements to the front
 
 /*    Without devide and conquer approach
@@ -87,6 +86,9 @@ for(int i=0;i<n;i++){
  */
 //another approach using divide and conquer approach (merge sort)
 //strictly using the merge sort approach
+
+#include<iostream>
+using namespace std;
 
 // Function to collect non-zero elements using divide and conquer
 void collectNonZeros(int arr[], int start, int end, int temp[], int &index) {
