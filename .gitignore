@@ -1,0 +1,10 @@
+# Compiled binaries
+*.exe
+*.o
+*.out
+*.app
+
+# IDEs and Environments
+.vscode/
+.idea/
+*.swp
